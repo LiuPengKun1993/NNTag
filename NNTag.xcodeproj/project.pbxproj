@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049F124AD1AE1F7D168974EC /* libPods-NNTag.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00073A873B46E680C0458F6B /* libPods-NNTag.a */; };
+		818C3C1E1DCAE0F000E4CA9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 818C3C1D1DCAE0F000E4CA9E /* main.m */; };
+		818C3C211DCAE0F000E4CA9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 818C3C201DCAE0F000E4CA9E /* AppDelegate.m */; };
+		818C3C241DCAE0F000E4CA9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818C3C231DCAE0F000E4CA9E /* ViewController.m */; };
+		818C3C271DCAE0F000E4CA9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818C3C251DCAE0F000E4CA9E /* Main.storyboard */; };
+		818C3C291DCAE0F000E4CA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818C3C281DCAE0F000E4CA9E /* Assets.xcassets */; };
+		818C3C2C1DCAE0F000E4CA9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818C3C2A1DCAE0F000E4CA9E /* LaunchScreen.storyboard */; };
+		818C3C371DCAE0F000E4CA9E /* NNTagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 818C3C361DCAE0F000E4CA9E /* NNTagTests.m */; };
+		818C3C421DCAE0F000E4CA9E /* NNTagUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 818C3C411DCAE0F000E4CA9E /* NNTagUITests.m */; };
+		818C3C741DCAECF800E4CA9E /* NNAddTagToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 818C3C6C1DCAECF800E4CA9E /* NNAddTagToolbar.m */; };
+		818C3C751DCAECF800E4CA9E /* NNAddTagToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 818C3C6D1DCAECF800E4CA9E /* NNAddTagToolbar.xib */; };
+		818C3C761DCAECF800E4CA9E /* NNTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 818C3C6F1DCAECF800E4CA9E /* NNTagButton.m */; };
+		818C3C771DCAECF800E4CA9E /* NNTagTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 818C3C711DCAECF800E4CA9E /* NNTagTextField.m */; };
+		818C3C781DCAECF800E4CA9E /* UIView+NNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 818C3C731DCAECF800E4CA9E /* UIView+NNView.m */; };
+		818C3C851DCAEEAA00E4CA9E /* chose_tag_close_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 818C3C821DCAEEAA00E4CA9E /* chose_tag_close_icon.png */; };
+		818C3C861DCAEEAA00E4CA9E /* chose_tag_close_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 818C3C831DCAEEAA00E4CA9E /* chose_tag_close_icon@2x.png */; };
+		818C3C871DCAEEAA00E4CA9E /* chose_tag_close_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 818C3C841DCAEEAA00E4CA9E /* chose_tag_close_icon@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		818C3C331DCAE0F000E4CA9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 818C3C111DCAE0EF00E4CA9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 818C3C181DCAE0F000E4CA9E;
+			remoteInfo = NNTag;
+		};
+		818C3C3E1DCAE0F000E4CA9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 818C3C111DCAE0EF00E4CA9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 818C3C181DCAE0F000E4CA9E;
+			remoteInfo = NNTag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00073A873B46E680C0458F6B /* libPods-NNTag.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNTag.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D1AE5010AA442D91290A72 /* Pods-NNTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNTag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNTag/Pods-NNTag.debug.xcconfig"; sourceTree = "<group>"; };
+		818C3C191DCAE0F000E4CA9E /* NNTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		818C3C1D1DCAE0F000E4CA9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		818C3C1F1DCAE0F000E4CA9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		818C3C201DCAE0F000E4CA9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		818C3C221DCAE0F000E4CA9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		818C3C231DCAE0F000E4CA9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		818C3C261DCAE0F000E4CA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		818C3C281DCAE0F000E4CA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		818C3C2B1DCAE0F000E4CA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		818C3C2D1DCAE0F000E4CA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818C3C321DCAE0F000E4CA9E /* NNTagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNTagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		818C3C361DCAE0F000E4CA9E /* NNTagTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNTagTests.m; sourceTree = "<group>"; };
+		818C3C381DCAE0F000E4CA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818C3C3D1DCAE0F000E4CA9E /* NNTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		818C3C411DCAE0F000E4CA9E /* NNTagUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNTagUITests.m; sourceTree = "<group>"; };
+		818C3C431DCAE0F000E4CA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818C3C6B1DCAECF800E4CA9E /* NNAddTagToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNAddTagToolbar.h; sourceTree = "<group>"; };
+		818C3C6C1DCAECF800E4CA9E /* NNAddTagToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNAddTagToolbar.m; sourceTree = "<group>"; };
+		818C3C6D1DCAECF800E4CA9E /* NNAddTagToolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNAddTagToolbar.xib; sourceTree = "<group>"; };
+		818C3C6E1DCAECF800E4CA9E /* NNTagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNTagButton.h; sourceTree = "<group>"; };
+		818C3C6F1DCAECF800E4CA9E /* NNTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNTagButton.m; sourceTree = "<group>"; };
+		818C3C701DCAECF800E4CA9E /* NNTagTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNTagTextField.h; sourceTree = "<group>"; };
+		818C3C711DCAECF800E4CA9E /* NNTagTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNTagTextField.m; sourceTree = "<group>"; };
+		818C3C721DCAECF800E4CA9E /* UIView+NNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NNView.h"; sourceTree = "<group>"; };
+		818C3C731DCAECF800E4CA9E /* UIView+NNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NNView.m"; sourceTree = "<group>"; };
+		818C3C821DCAEEAA00E4CA9E /* chose_tag_close_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chose_tag_close_icon.png; path = Images.bundle/chose_tag_close_icon.png; sourceTree = "<group>"; };
+		818C3C831DCAEEAA00E4CA9E /* chose_tag_close_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chose_tag_close_icon@2x.png"; path = "Images.bundle/chose_tag_close_icon@2x.png"; sourceTree = "<group>"; };
+		818C3C841DCAEEAA00E4CA9E /* chose_tag_close_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chose_tag_close_icon@3x.png"; path = "Images.bundle/chose_tag_close_icon@3x.png"; sourceTree = "<group>"; };
+		DE21F68819D77B715EB74D73 /* Pods-NNTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNTag.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNTag/Pods-NNTag.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		818C3C161DCAE0F000E4CA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F124AD1AE1F7D168974EC /* libPods-NNTag.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818C3C2F1DCAE0F000E4CA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818C3C3A1DCAE0F000E4CA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0825E146CED2C6F68E2D39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57D1AE5010AA442D91290A72 /* Pods-NNTag.debug.xcconfig */,
+				DE21F68819D77B715EB74D73 /* Pods-NNTag.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B5FD5B230FB024FBC399C8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00073A873B46E680C0458F6B /* libPods-NNTag.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		818C3C101DCAE0EF00E4CA9E = {
+			isa = PBXGroup;
+			children = (
+				818C3C1B1DCAE0F000E4CA9E /* NNTag */,
+				818C3C351DCAE0F000E4CA9E /* NNTagTests */,
+				818C3C401DCAE0F000E4CA9E /* NNTagUITests */,
+				818C3C1A1DCAE0F000E4CA9E /* Products */,
+				1F0825E146CED2C6F68E2D39 /* Pods */,
+				6B5FD5B230FB024FBC399C8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		818C3C1A1DCAE0F000E4CA9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				818C3C191DCAE0F000E4CA9E /* NNTag.app */,
+				818C3C321DCAE0F000E4CA9E /* NNTagTests.xctest */,
+				818C3C3D1DCAE0F000E4CA9E /* NNTagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818C3C1B1DCAE0F000E4CA9E /* NNTag */ = {
+			isa = PBXGroup;
+			children = (
+				818C3C5E1DCAE82E00E4CA9E /* NNTag */,
+				818C3C1F1DCAE0F000E4CA9E /* AppDelegate.h */,
+				818C3C201DCAE0F000E4CA9E /* AppDelegate.m */,
+				818C3C221DCAE0F000E4CA9E /* ViewController.h */,
+				818C3C231DCAE0F000E4CA9E /* ViewController.m */,
+				818C3C251DCAE0F000E4CA9E /* Main.storyboard */,
+				818C3C281DCAE0F000E4CA9E /* Assets.xcassets */,
+				818C3C2A1DCAE0F000E4CA9E /* LaunchScreen.storyboard */,
+				818C3C2D1DCAE0F000E4CA9E /* Info.plist */,
+				818C3C1C1DCAE0F000E4CA9E /* Supporting Files */,
+			);
+			path = NNTag;
+			sourceTree = "<group>";
+		};
+		818C3C1C1DCAE0F000E4CA9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				818C3C1D1DCAE0F000E4CA9E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		818C3C351DCAE0F000E4CA9E /* NNTagTests */ = {
+			isa = PBXGroup;
+			children = (
+				818C3C361DCAE0F000E4CA9E /* NNTagTests.m */,
+				818C3C381DCAE0F000E4CA9E /* Info.plist */,
+			);
+			path = NNTagTests;
+			sourceTree = "<group>";
+		};
+		818C3C401DCAE0F000E4CA9E /* NNTagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				818C3C411DCAE0F000E4CA9E /* NNTagUITests.m */,
+				818C3C431DCAE0F000E4CA9E /* Info.plist */,
+			);
+			path = NNTagUITests;
+			sourceTree = "<group>";
+		};
+		818C3C5E1DCAE82E00E4CA9E /* NNTag */ = {
+			isa = PBXGroup;
+			children = (
+				818C3C821DCAEEAA00E4CA9E /* chose_tag_close_icon.png */,
+				818C3C831DCAEEAA00E4CA9E /* chose_tag_close_icon@2x.png */,
+				818C3C841DCAEEAA00E4CA9E /* chose_tag_close_icon@3x.png */,
+				818C3C6B1DCAECF800E4CA9E /* NNAddTagToolbar.h */,
+				818C3C6C1DCAECF800E4CA9E /* NNAddTagToolbar.m */,
+				818C3C6D1DCAECF800E4CA9E /* NNAddTagToolbar.xib */,
+				818C3C6E1DCAECF800E4CA9E /* NNTagButton.h */,
+				818C3C6F1DCAECF800E4CA9E /* NNTagButton.m */,
+				818C3C701DCAECF800E4CA9E /* NNTagTextField.h */,
+				818C3C711DCAECF800E4CA9E /* NNTagTextField.m */,
+				818C3C721DCAECF800E4CA9E /* UIView+NNView.h */,
+				818C3C731DCAECF800E4CA9E /* UIView+NNView.m */,
+			);
+			path = NNTag;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		818C3C181DCAE0F000E4CA9E /* NNTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818C3C461DCAE0F000E4CA9E /* Build configuration list for PBXNativeTarget "NNTag" */;
+			buildPhases = (
+				DB67078EBD60A266A511DFB5 /* [CP] Check Pods Manifest.lock */,
+				818C3C151DCAE0F000E4CA9E /* Sources */,
+				818C3C161DCAE0F000E4CA9E /* Frameworks */,
+				818C3C171DCAE0F000E4CA9E /* Resources */,
+				3B7D51CEE9184C4D768CF8CE /* [CP] Embed Pods Frameworks */,
+				9D5233D57CC19C6E669DA128 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNTag;
+			productName = NNTag;
+			productReference = 818C3C191DCAE0F000E4CA9E /* NNTag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		818C3C311DCAE0F000E4CA9E /* NNTagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818C3C491DCAE0F000E4CA9E /* Build configuration list for PBXNativeTarget "NNTagTests" */;
+			buildPhases = (
+				818C3C2E1DCAE0F000E4CA9E /* Sources */,
+				818C3C2F1DCAE0F000E4CA9E /* Frameworks */,
+				818C3C301DCAE0F000E4CA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				818C3C341DCAE0F000E4CA9E /* PBXTargetDependency */,
+			);
+			name = NNTagTests;
+			productName = NNTagTests;
+			productReference = 818C3C321DCAE0F000E4CA9E /* NNTagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		818C3C3C1DCAE0F000E4CA9E /* NNTagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818C3C4C1DCAE0F000E4CA9E /* Build configuration list for PBXNativeTarget "NNTagUITests" */;
+			buildPhases = (
+				818C3C391DCAE0F000E4CA9E /* Sources */,
+				818C3C3A1DCAE0F000E4CA9E /* Frameworks */,
+				818C3C3B1DCAE0F000E4CA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				818C3C3F1DCAE0F000E4CA9E /* PBXTargetDependency */,
+			);
+			name = NNTagUITests;
+			productName = NNTagUITests;
+			productReference = 818C3C3D1DCAE0F000E4CA9E /* NNTagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		818C3C111DCAE0EF00E4CA9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YMWM;
+				TargetAttributes = {
+					818C3C181DCAE0F000E4CA9E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					818C3C311DCAE0F000E4CA9E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 818C3C181DCAE0F000E4CA9E;
+					};
+					818C3C3C1DCAE0F000E4CA9E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 818C3C181DCAE0F000E4CA9E;
+					};
+				};
+			};
+			buildConfigurationList = 818C3C141DCAE0F000E4CA9E /* Build configuration list for PBXProject "NNTag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 818C3C101DCAE0EF00E4CA9E;
+			productRefGroup = 818C3C1A1DCAE0F000E4CA9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				818C3C181DCAE0F000E4CA9E /* NNTag */,
+				818C3C311DCAE0F000E4CA9E /* NNTagTests */,
+				818C3C3C1DCAE0F000E4CA9E /* NNTagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		818C3C171DCAE0F000E4CA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818C3C871DCAEEAA00E4CA9E /* chose_tag_close_icon@3x.png in Resources */,
+				818C3C2C1DCAE0F000E4CA9E /* LaunchScreen.storyboard in Resources */,
+				818C3C291DCAE0F000E4CA9E /* Assets.xcassets in Resources */,
+				818C3C271DCAE0F000E4CA9E /* Main.storyboard in Resources */,
+				818C3C751DCAECF800E4CA9E /* NNAddTagToolbar.xib in Resources */,
+				818C3C861DCAEEAA00E4CA9E /* chose_tag_close_icon@2x.png in Resources */,
+				818C3C851DCAEEAA00E4CA9E /* chose_tag_close_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818C3C301DCAE0F000E4CA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818C3C3B1DCAE0F000E4CA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B7D51CEE9184C4D768CF8CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNTag/Pods-NNTag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5233D57CC19C6E669DA128 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNTag/Pods-NNTag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB67078EBD60A266A511DFB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		818C3C151DCAE0F000E4CA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818C3C741DCAECF800E4CA9E /* NNAddTagToolbar.m in Sources */,
+				818C3C241DCAE0F000E4CA9E /* ViewController.m in Sources */,
+				818C3C761DCAECF800E4CA9E /* NNTagButton.m in Sources */,
+				818C3C211DCAE0F000E4CA9E /* AppDelegate.m in Sources */,
+				818C3C781DCAECF800E4CA9E /* UIView+NNView.m in Sources */,
+				818C3C771DCAECF800E4CA9E /* NNTagTextField.m in Sources */,
+				818C3C1E1DCAE0F000E4CA9E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818C3C2E1DCAE0F000E4CA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818C3C371DCAE0F000E4CA9E /* NNTagTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818C3C391DCAE0F000E4CA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818C3C421DCAE0F000E4CA9E /* NNTagUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		818C3C341DCAE0F000E4CA9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 818C3C181DCAE0F000E4CA9E /* NNTag */;
+			targetProxy = 818C3C331DCAE0F000E4CA9E /* PBXContainerItemProxy */;
+		};
+		818C3C3F1DCAE0F000E4CA9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 818C3C181DCAE0F000E4CA9E /* NNTag */;
+			targetProxy = 818C3C3E1DCAE0F000E4CA9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		818C3C251DCAE0F000E4CA9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818C3C261DCAE0F000E4CA9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		818C3C2A1DCAE0F000E4CA9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818C3C2B1DCAE0F000E4CA9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		818C3C441DCAE0F000E4CA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		818C3C451DCAE0F000E4CA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		818C3C471DCAE0F000E4CA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D1AE5010AA442D91290A72 /* Pods-NNTag.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NNTag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LF.NNTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		818C3C481DCAE0F000E4CA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE21F68819D77B715EB74D73 /* Pods-NNTag.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NNTag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LF.NNTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		818C3C4A1DCAE0F000E4CA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NNTagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LF.NNTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNTag.app/NNTag";
+			};
+			name = Debug;
+		};
+		818C3C4B1DCAE0F000E4CA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NNTagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LF.NNTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNTag.app/NNTag";
+			};
+			name = Release;
+		};
+		818C3C4D1DCAE0F000E4CA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NNTagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LF.NNTagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNTag;
+			};
+			name = Debug;
+		};
+		818C3C4E1DCAE0F000E4CA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NNTagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LF.NNTagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNTag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		818C3C141DCAE0F000E4CA9E /* Build configuration list for PBXProject "NNTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818C3C441DCAE0F000E4CA9E /* Debug */,
+				818C3C451DCAE0F000E4CA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818C3C461DCAE0F000E4CA9E /* Build configuration list for PBXNativeTarget "NNTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818C3C471DCAE0F000E4CA9E /* Debug */,
+				818C3C481DCAE0F000E4CA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818C3C491DCAE0F000E4CA9E /* Build configuration list for PBXNativeTarget "NNTagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818C3C4A1DCAE0F000E4CA9E /* Debug */,
+				818C3C4B1DCAE0F000E4CA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818C3C4C1DCAE0F000E4CA9E /* Build configuration list for PBXNativeTarget "NNTagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818C3C4D1DCAE0F000E4CA9E /* Debug */,
+				818C3C4E1DCAE0F000E4CA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 818C3C111DCAE0EF00E4CA9E /* Project object */;
+}
